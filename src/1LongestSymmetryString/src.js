@@ -11,10 +11,10 @@ function reverseStr(str) { // 反转字符串
 
 function getSymmetry(str) {
     var maxSubStrings = "";
-    for (var i = 0; i < len; i++) {
-        for (var j = len; j > i; j--) {    // 两个for循环获得子字符串
+    for (var i = 0; i < str.length; i++) {
+        for (var j = str.length; j > i; j--) {    // 两个for循环获得子字符串
             var temp = str.substring(i, j);
-            if (temp == reverseStr(str) && maxSubStrings.length < temp.length) {
+            if (temp == reverseStr(temp) && maxSubStrings.length < temp.length) {
                 maxSubStrings = temp;
             }
         }
