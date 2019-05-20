@@ -9,3 +9,5 @@
 |5|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[JavaScript](./src/5AddTwoNumbers/src.js)|![#f03c15](https://placehold.it/15/F0AD4E/000000?text=+)Medium|
 |6|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[JavaScript](./src/6LRUCache/src.js)|![#f03c15](https://placehold.it/15/D9534F/000000?text=+)Hard|
 |7|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[JavaScript](./src/7BaseballGame/src.js)|![#f03c15](https://placehold.it/15/F0AD4E/000000?text=+)Medium|
+|8|[Reverse String](./src/8ReverseString/src.js)|[JavaScript](https://www.nowcoder.com/)|![#f03c15](https://placehold.it/15/5CB85C/000000?text=+)Easy|
+|9|[Unique Paths](https://leetcode.com/problems/unique-paths-ii/)|[JavaScript](./src/9UniquePaths/src.js)|![#f03c15](https://placehold.it/15/D9534F/000000?text=+)Hard|
