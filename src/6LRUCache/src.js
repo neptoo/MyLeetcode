@@ -2,8 +2,6 @@
 // get(key) - 存在于缓存，则获取值，否则返回 -1
 // put(key, value) - 不存在,写入缓存;容量达上限，写入新数据前删除最近最少使用的缓存
 
-LRUCache cache = new LRUCache(2 /* capacity */ );
-
 cache.put(1, 1);
 cache.put(2, 2);
 cache.get(1); // returns 1

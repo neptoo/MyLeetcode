@@ -37,32 +37,32 @@ for (var i = nodes.length - 1; i >= 0; i--) {
 console.log(midObj[0][0]);
 
 // 输出
-{
-    "id": 2,
-    "title": "dw2",
-    "parentId": 0,
-    "children": [
-    {
-        "id": 12,
-        "title": "dw12",
-        "parentId": 2
-    },
-    {
-        "id": 4,
-        "title": "dw4",
-        "parentId": 2,
-        "children": [
-        {
-            "id": 8,
-            "title": "dw8",
-            "parentId": 4
-        },
-        {
-            "id": 10,
-            "title": "dw10",
-            "parentId": 4
-        }
-        ]
-    }
-    ]
-}
+// {
+//     "id": 2,
+//     "title": "dw2",
+//     "parentId": 0,
+//     "children": [
+//     {
+//         "id": 12,
+//         "title": "dw12",
+//         "parentId": 2
+//     },
+//     {
+//         "id": 4,
+//         "title": "dw4",
+//         "parentId": 2,
+//         "children": [
+//         {
+//             "id": 8,
+//             "title": "dw8",
+//             "parentId": 4
+//         },
+//         {
+//             "id": 10,
+//             "title": "dw10",
+//             "parentId": 4
+//         }
+//         ]
+//     }
+//     ]
+// }
