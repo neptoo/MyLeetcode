@@ -13,7 +13,6 @@
 //             0 ^ 4
 //                 4
 
-
 var singleNumber = function (nums) {
   let res = nums[0];
   for (var i = 1; i < nums.length; i++) {
