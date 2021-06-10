@@ -8,7 +8,7 @@ function formatAmount(num){
   for(var i = num.length-1; i >= 0; i--){
     counter++;
     result = num.charAt(i) + result;
-    // 取到第i位的数字 i=8 r=1  i=7 r=14
+    // 取到第i位的数字
     if(!(counter % 3) && i != 0){
       result = ',' + result;
     }
@@ -25,3 +25,6 @@ function formatAmount(num){
   if(num){ result = num + result; }
   return result;
 }
+
+// 方法3
+num.toLocaleString();
