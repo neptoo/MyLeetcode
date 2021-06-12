@@ -14,7 +14,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function(l1, l2) {
+/* var addTwoNumbers = function(l1, l2) {
   var c1 = l1,
     c2 = l2,
     c3, l3,
@@ -59,4 +59,4 @@ var addTwoNumbers = function(l1, l2) {
     }
   }
   return l3;
-}
+} */
